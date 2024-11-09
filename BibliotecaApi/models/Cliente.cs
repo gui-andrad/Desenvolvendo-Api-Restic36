@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 
 public class Cliente{
-    public int Id {get ; set;}
+    public int ClienteId {get ; set;}
     
     [Required(ErrorMessage = "O nome do cliente é obrigatório.")]
     [StringLength(100, ErrorMessage = "O nome do cliente não pode ter mais de 100 caracteres.")]
